@@ -556,7 +556,7 @@ function App() {
       <div className="box-container">
         <div className="box">
           <h2>Car</h2>
-          <img src="car.jpg" alt="Car Image" width="150" />
+          <img src="src/car.jpg" alt="Car Image" width="150" />
           <button id='bidButton1' className="bid-button" onClick={() => bid('car')}>
             Bid
           </button>
@@ -565,7 +565,7 @@ function App() {
 
         <div className="box">
           <h2>Phone</h2>
-          <img src="phone.jpg" alt="Phone Image" width="150" />
+          <img src="src/phone.jpg" alt="Phone Image" width="150" />
           <button id='bidButton2' className="bid-button" onClick={() => bid('phone')}>
             Bid
           </button>
@@ -574,7 +574,7 @@ function App() {
 
         <div className="box">
           <h2>Computer</h2>
-          <img id='computerImg' src="computer.jpg" alt="Computer Image" width="150" />
+          <img id='computerImg' src="src/computer.jpg" alt="Computer Image" width="150" />
           <button id='bidButton3' className="bid-button" onClick={() => bid('computer')}>
             Bid
           </button>
